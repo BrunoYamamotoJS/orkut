@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ccdfe2;
+  }
+.navbar {
+    background-color: #4f8eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar li a:hover {
+    background-color: #676a79;
+    border-radius: 16px;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 1330px;
+    border-radius: 66px;
+}
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .search-bar button {
+    padding: 14px 4px;
+    background-color: #4f8eb8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-left: 7px;
+    cursor: pointer;
+  }
+.navbar li:nth-child(5) {
+    margin-left: 770px;
+}
+.Grid-container {
+    width: 1024px;
+    height: 600px;
+    background-color: #ccdfe2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+.Grid-container > div {
+    background-color: #fff;
+    margin-left: 13px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 50px;
+    align-items: center;
+    height: 450px;
+    width: 170px;
+    margin-top: 15px;
+}
+.Grid-item1 {
+    background-color: #fff;
+    height: 580px;
+    width: 190px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.Grid-item2 {
+    background-color: #fff;
+    height: 450px;
+    width: 10px;
+    border-radius: 89px;
+    flex-direction: column;
+}
+.Grid-item3 {
+    background-color: #fff;
+    height: 450px;
+    width: 600px;
+  }
+
